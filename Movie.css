@@ -15,14 +15,26 @@ body{
   box-sizing: border-box;
  background-color:#D2B48C;
 }
-.column {
-     float: left;
-     width: 40%;
-     padding: 10px;
-   }
 
-.myimages {
-    width: 400px;
-    height: 450px;
-    
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:#101617;
+  padding: 4px;
+  transform: translate(0, 165px);
+  justify-content: center;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 80px solid #101617;
+  text-align: center;
+  height: 50%;
+  width: 50%;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.title{
+   color: white;
 }
