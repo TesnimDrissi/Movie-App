@@ -1,0 +1,30 @@
+
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family:SemiBold Italic;
+  font-style: normal;
+  font-weight: 100;
+  box-sizing: border-box;
+}
+
+body{
+   height: 100%;
+   font-family:  sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  box-sizing: border-box;
+ background-color:#D2B48C;
+}
+.column {
+     float: left;
+     width: 40%;
+     padding: 10px;
+   }
+
+.myimages {
+    width: 400px;
+    height: 450px;
+    
+}
+
